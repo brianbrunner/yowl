@@ -1,0 +1,44 @@
+{
+  "name": "yowl",
+  "version": "0.1.1",
+  "description": "Extensible multi-platform chat bot framework.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "jshint lib/*.js lib/**/*.js",
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianbrunner/yowl.git"
+  },
+  "keywords": [
+    "chatbot"
+  ],
+  "author": "brian.brunner@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianbrunner/yowl/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "debug": "^2.2.0",
+    "express": "^4.13.4",
+    "lodash": "^4.11.1",
+    "merge-descriptors": "^1.0.1",
+    "moment": "^2.12.0",
+    "yargs": "^4.6.0"
+  },
+  "devDependencies": {
+    "jshint": "latest",
+    "browserify": "latest",
+    "mocha": "latest"
+  },
+  "jshintConfig": {
+    "node": true,
+    "proto": true
+  },
+  "homepage": "https://github.com/brianbrunner/yowl#readme"
+}
