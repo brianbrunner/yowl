@@ -62,7 +62,7 @@ To talk to your users, bots need to integrate with outside platforms.
 You will most likely want to maintain an on-going state for interactions your users have with your bot. These modules take care of that.
 
   * [yowl-context-memory](https://github.com/brianbrunner/yowl-context-memory) - in-memory context persistence. good for getting up and running with a development environment or for testing.
-  * [yowl-context-rethink]((https://github.com/brianbrunner/yowl-context-rethink) - good for deployed bots that may benefit from rethinkdb's ease of operation/scaling
+  * [yowl-context-rethink](https://github.com/brianbrunner/yowl-context-rethink) - good for deployed bots that may benefit from rethinkdb's ease of operation/scaling
 
 ### Interaction Locking
 
@@ -76,7 +76,7 @@ Often you'll wait your bot to perform an asynchronous call to an external API or
 
 Bots aren't useful if they can't handle multi-step interactions with your users.
 
-  * [yowl-dialog-manager](https://github.com/brianbrunner/yowl-dialog-manager) - a structured approach for defining and chaining dialogs, making it easier to create complex workflows for your bat
+  * [yowl-dialog-manager](https://github.com/brianbrunner/yowl-dialog-manager) - a structured approach for defining and chaining dialogs, making it easier to create complex workflows for your bot
 
 ## Examples
 
