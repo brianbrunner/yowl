@@ -1,6 +1,6 @@
 {
   "name": "yowl",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Extensible multi-platform chat bot framework.",
   "main": "index.js",
   "directories": {
