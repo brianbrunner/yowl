@@ -15,7 +15,7 @@ bot.extend(local);
 
 bot.use(function(context, event, callback) {
   var message = event.message;
-  event.send(context, event, message, callback);
+  event.send(message, callback);
 });
 
 bot.run();
