@@ -62,7 +62,7 @@ To talk to your users, bots need to integrate with outside platforms.
 You will most likely want to maintain an on-going state for interactions your users have with your bot. These modules take care of that.
 
   * [yowl-session-memory](https://github.com/brianbrunner/yowl-session-memory) - in-memory session persistence. good for getting up and running with a development environment or for testing.
-  * [yowl-session-redis](https://github.com/brianbrunner/yowl-session-memory) - good for bots that don't need to keep a lot of session information and need quick session access.
+  * [yowl-session-redis](https://github.com/brianbrunner/yowl-session-redis) - good for bots that don't need to keep a lot of session information and need quick session access.
   * [yowl-session-rethink](https://github.com/brianbrunner/yowl-session-rethink) - good for deployed bots that may benefit from rethinkdb's ease of operation/scaling
 
 ### Interaction Locking
