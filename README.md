@@ -54,8 +54,10 @@ This is not necessarily an exhaustive list but rather a good starting point for 
 To talk to your users, bots need to integrate with outside platforms.
 
   * [yowl-platform-cli](https://github.com/brianbrunner/yowl-platform-cli) - allows you to interact with a bot via the command line by using the `--local` flag
+  * [yowl-platform-facebook](https://github.com/brianbrunner/yowl-platform-facebook) - quickly deploy a bot to facebook messenger
+  * [yowl-platform-ws](https://github.com/brianbrunner/yowl-platform-ws) - provide a bot interface directly via websocket, includes javascript client library
 
-*planned middleware: facebook platform, telegram platform, rest platform, sms platform*
+*planned middleware: telegram platform, sms platform*
 
 ### Context Persistence
 
