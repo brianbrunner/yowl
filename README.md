@@ -26,6 +26,12 @@ $ npm install yowl yowl-platform-cli
 $ node bot.js --local
 ```
 
+## Complex Example - A Reminder Bot
+
+[Reminder Bot](https://github.com/brianbrunner/yowl-example-reminders) -
+Leverages a combination of yowl packages to create a bot that allows users to set
+reminders for themselves.
+
 ## Installation
 
 ```bash
@@ -81,13 +87,23 @@ Bots aren't useful if they can't handle multi-step interactions with your users.
 
   * [yowl-dialog-manager](https://github.com/brianbrunner/yowl-dialog-manager) - a structured approach for defining and chaining dialogs, making it easier to create complex workflows for your bot
 
+### Scheduled/Async Jobs
+
+Often, you'll want to schedule some processing and messaging to take place
+asynchronously or at some point in the future.
+
+  * [yowl-jobs-kue](https://github.com/brianbrunner/yowl-jobs-kue) - Job runner/scheduler that leverages [kue](https://github.com/Automattic/kue) under the hood.
+
+### Text Parsing
+
+You're going to need to make sense of text.
+
+  * [yowl-parse-dates](https://github.com/brianbrunner/yowl-parse-dates) - Parse dates from natural language text strings
+  * [yowl-classifier-bayes](https://github.com/brianbrunner/yowl-classifier-bayes) - Naive bayes classifier for assigning categories to messages
+
 ## Examples
 
 Examples can be found at [brianbrunner/yowl-examples](https://github.com/brianbrunner/yowl-examples).
-
-## Tests
-
-As you can see, there are currently no tests. This is bad and will be rectified soon (the project is literally four days old).
 
 ## People
 
